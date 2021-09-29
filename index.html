@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quattro Cucine</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="title">Bun venit la Quattro Cucine!</div>    
+        <div id="meniu">
+            <ul>
+                <a href="#about" class="items">Despre noi</a>
+                <a href="#menu" class="items">Meniu</a>
+                <a href="#pics" class="items">Poze</a>
+                <a href="#contact" class="items">Contact</a>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        
+        <div class="about">
+            <img src="Terasa.jpeg" align="right" id="terasa">
+            <h1 id="about">Despre noi</h1>
+            <p class="paragraph">Quattro Cucine este un restaurant autentic libanez situat în inima Brașovului.
+                O dată trecut de pragul restaurantului te asteaptă o mulțime de rețete libaneze exclusive produse in laboratorul propriu cu multă măestrie si pasiune.
+            </p>
+            <p class="paragraph">Quattro Cucine is an authentic Lebanese restaurat place in the heart of Brasov.
+                The restaurant serves modern and exclusive Lebanese cuisine prepared with mastery and passion in our kitchen.
+            </p>
+        </div>
+       
+        <div class="menu" data-aos="fade-left">
+                <h1 id="menu">Meniu</h1>
+
+                <figure class="imagini">
+                    <img src="Poza1.jpeg" class="img">
+                    <figcaption>Detalii</figcaption>
+                    <figcaption>Detalies</figcaption>
+                </figure>
+
+                <figure class="imagini">
+                    <img src="Poza2.jpeg" class="img">
+                    <figcaption>Detalii</figcaption>
+                    <figcaption>Detalies</figcaption>
+                </figure>
+
+                <figure class="imagini">
+                    <img src="Poza3.jpeg" class="img">
+                    <figcaption>Detalii</figcaption>
+                    <figcaption>Detalies</figcaption>
+                </figure>
+
+                <figure class="imagini">
+                    <img src="Poza4.jpeg" class="img">
+                    <figcaption>Detalii</figcaption>
+                    <figcaption>Detalies</figcaption>
+                </figure>
+
+                <figure class="imagini">
+                    <img src="Poza5.jpeg" class="img">
+                    <figcaption>Detalii</figcaption>
+                    <figcaption>Detalies</figcaption>
+                </figure>
+
+                <figure class="imagini">
+                    <img src="Poza6.jpeg" class="img">
+                    <figcaption>Detalii</figcaption>
+                    <figcaption>Detalies</figcaption>
+                </figure>
+
+                <div id="p_meniu">
+                    <p>Descarcă de <a href="https://cdn-cms.f-static.net/uploads/3539303/normal_5f18124662d6c.pdf">aici</a> meniul complet</p>
+                </div>
+        </div>
+       
+       <div class="pics" data-aos="fade-right">
+           <h1 id="pics">Poze</h1>
+           <div class="slider">
+                <span id="slide_img1"></span>
+                <span id="slide_img2"></span>
+                <span id="slide_img3"></span>
+                <div class="container">
+                    <img src="1.jpg" class="slide-img">
+                    <img src="2.jpg" class="slide-img">
+                    <img src="3.jpg" class="slide-img">
+                </div>
+                <div class="button">
+                    <a href="#slide_img1" class="slide-button"></a>
+                    <a href="#slide_img2" class="slide-button"></a>
+                    <a href="#slide_img3" class="slide-button"></a>
+                </div>
+            </div>
+       </div>
+
+       <div class="contact" data-aos="fade-left">
+           <form>
+               <fieldset>
+                   <legend id="contact"><h1>Contact</h1></legend>
+                   <p><input id="form" type="text" required placeholder="Nume"></p>
+                   <p><input id="form" type="email" required placeholder="Email"></p>
+                   <p><label>Mesaj:</label></p>
+                   <p><textarea  id="form" placeholder="Mesaj" itemref="forum"></textarea></p>
+                   <p><input type="submit" value="Trimite" id="send"></p>
+                   <div class="social">
+                       <a href="https://www.facebook.com/restaurantamasi"><img src="facebook-icon.png"></a>
+                       <a href="https://www.instagram.com/amasibrasov/"><img src="insta-icon.png"></a>
+                    </div>
+               </fieldset>
+           </form>
+       </div>
+
+    </div>
+
+    <button id="myBtn"><a href="#header">Top</a></button>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 700
+        });
+    </script>
+</body>
+</html>
